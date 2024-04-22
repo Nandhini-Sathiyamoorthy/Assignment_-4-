@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+.layout_container {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+body {
+  margin: 0;
+}
+.outer_container {
+  width: 60%;
+  height: 100%;
+  border: 1px solid #6c757d;
+  background-color: #edeff0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.header_container {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+.header_button {
+  display: flex;
+  align-items: flex-end;
+}
+.btn_style {
+  padding: 5px 30px;
+  border: 1px solid #6c757d;
+}
+.log_in_color {
+  background-color: #cbcecf;
+}
+.sign_up_color {
+  background-color: white;
+}
+.body_container {
+  height: 75%;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #6c757d;
+  overflow: auto;
+}
+.footer_container {
+  height: 15%;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+.body_container::-webkit-scrollbar {
+  width: 10px;
+}
+.inner_body_container {
+  display: flex;
+  justify-content: space-between;
+  height: 92%;
+}
+.main_body_container {
+  width: 80%;
+  height: 100%;
+  line-height: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+.side_bar_container {
+  /* border: 1px solid black; */
+  width: 20%;
+  padding: 10px;
+  line-height: 0.8rem;
+  height: 100%;
+}
+.para_content {
+  margin-bottom: 2px;
+  font-size: small;
+}
+.form_style {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.label_width {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.input_width {
+  padding: 8px 20px;
+  width: 70%;
+}
+.input_style {
+  width: 80%;
+}
+.terms_style {
+  margin-left: 10px;
+  color: #0d6efd;
+}
+.sumbit {
+  margin-top: 15px;
+}
+.checkbox_style {
+  height: 20px;
+  width: 20px;
+}
+.checkbox_align {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.yes_content {
+  margin-left: 10px;
+}
+.submit_sign_up_button {
+  padding: 5px 15px;
+  color: white;
+  background-color: #6c757d;
+}
+.footer_content {
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  color: #757474;
+}
+.footer_button {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px 190px;
+}
+.secure_btn {
+  font-size: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.btn_font {
+  text-align: center;
+  padding: 3px 30px;
+}
+.btn_font_1 {
+  padding: 3px 30px 3px 2px;
+}
